@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_about:
                 AlertDialog.Builder ad = new AlertDialog.Builder(this);
                 ad.setTitle("About this app");
-                ad.setMessage("Author : Lan-Tzu Zheng");
+                ad.setMessage("Author : Chung-Ti Lin");
 
                 DialogInterface.OnClickListener listener =
                         new DialogInterface.OnClickListener() {
